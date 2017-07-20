@@ -1,70 +1,70 @@
 ###ManagerManager
 
-*Плагин позволяет настраивать интерфейс панели управления MODX. Он позволяет переименовывать, скрывать, перемещать поля, вкладки, секции, интегрировать карты Google, Яндекс и многое другое. И всё это настраивается для документов с необходимыми шаблонами и необходимых ролей пользователей. Абсолютная власть! ;-)*
+* Plug-in allows you to configure the interface of the control panel. It allows you to rename, hide, move fields, tabs, sections, integrate Google maps, Yandex and much more. And all this is configured for documents with necessary templates and necessary user roles. Absolute power! ;-) *
 
 ***
 
-####Виджеты
-Все виджеты уже содержатся в архиве, ничего дополнительно устанавливать не нужно, всё хорошо ;-) 
-По ссылкам ниже вы найдёте документацию и примеры использования.
+#### Widgets
+All the widgets are already in the archive, nothing else is needed to install, everything is fine ;-)
+On the links below you will find documentation and examples of use.
 
 
-#####Ограничение ввода данных
-- **mm_ddMaxLength** - позволяет ограничить количество вводимых символов в TV.
-- **mm_ddNumericFields** - позволяет сделать возможным ввод в TV только цифр.
-- **mm_hideTemplates** - позволяет скрыть необходимые шаблоны из списка на странице редактирования документа.
-- **mm_requireFields** - позволяет сделать поля документа или TV обязательными для заполнения. 
-- **mm_hideFields** - позволяет скрывать поля документа или TV.
-- **mm_ddReadonly** - позволяет сделать поля документа и TV доступными только для чтения
+#####Restrict data entry
+- **mm_ddMaxLength** - Allows you to limit the number of input characters in TV.
+- ** mm_ddNumericFields ** - allows you to enter only digits in TV.
+- ** mm_hideTemplates ** - allows you to hide the necessary templates from the list on the document editing page.
+- ** mm_requireFields ** - allows to make the fields of the document or TV mandatory for filling.
+- ** mm_hideFields ** - allows you to hide the fields of a document or TV.
+- ** mm_ddReadonly ** - allows you to make the document and TV fields read-only
 
 
-#####Установка необходимых значений
-- **mm_inherit** - позволяет наследовать значения полей или TV от родителей для новых документов/папок.
-- **mm_default** - позволяет задать значения по умолчанию для полей/TV новых документов/папок. 
-- **mm_ddSetFieldValue** - позволяющий жёстко устанавливать необходимые значения полям документа или TV
-- **mm_synch_fields** - позволяет синхронизировать значения полей документа (или TV) при редактировании.
+##### Setting the required values
+- ** mm_inherit ** - allows you to inherit field values or TV from parents for new documents / folders.
+- ** mm_default ** - allows you to set the default values for the fields / TV of new documents / folders.
+- ** mm_ddSetFieldValue ** - allows you to hardly set the required values to the fields of a document or TV
+- ** mm_synch_fields ** - allows you to synchronize the values of the document fields (or TV) when editing.
 
 
-#####Изменение названий и подсказок
-- **mm_renameField** - позволяет переименовать одно из стандартных полей документа или TV.
-- **mm_changeFieldHelp** - позволяет изменить текст подсказки, появляющейся при наведении на иконку рядом с полем документа.
+##### Changing titles and tips
+- ** mm_renameField ** - allows you to rename one of the standard fields of the document or TV.
+- ** mm_changeFieldHelp ** - allows you to change the text of the hint that appears when you hover over the icon next to the document field.
 
 
-#####Расширение функционала ввода данных
-- **mm_ddMultipleFields** - позволяет добавлять произвольное количество значений полей (TV) к одному документу
-- **mm_ddSelectDocuments** - предназначен для выбора id определённых документов в удобном виде. 
-- **mm_widget_tags** - позволяет в удобной форме добавлять теги к документам
-- **mm_widget_colors** - позволяет добавить инструмент выбора цвета из палитры для указанного TV
+##### Extending Data Entry Functionality
+- ** mm_ddMultipleFields ** - allows you to add an arbitrary number of field values(TV) to one document
+- ** mm_ddSelectDocuments ** - is intended for selection of id of certain documents in a convenient form.
+- ** mm_widget_tags ** - allows you to add tags to documents in a convenient way
+- ** mm_widget_colors ** - allows you to add a color picker from the palette for the specified TV
 
 
-#####Работа с секциями
-- **mm_ddCreateSection** - позволяет создать новую произвольную секцию на странице редактирования документа.
-- **mm_ddMoveFieldsToSection** - позволяет переместить поля документа и TV в другую секцию.
-- **mm_hideSections** - позволяет скрыть одну из секций на странице редактирования документа.
-- **mm_renameSection** - позволяет переименовать одну из секций на странице редактирования документа.
-- **mm_minimizablesections** - позволяет сворачивать секции
+##### Working with sections
+- ** mm_ddCreateSection ** - allows you to create a new random section on the document editing page.
+- ** mm_ddMoveFieldsToSection ** - allows you to move the document and TV fields to another section.
+- ** mm_hideSections ** - allows you to hide one of the sections on the document editing page.
+- ** mm_renameSection ** - allows you to rename one of the sections on the document editing page.
+- ** mm_minimizablesections ** - allows to minimize sections
 
 
-#####Работа с вкладками
-- **mm_createTab** - позволяет создать новую произвольную вкладку на странице редактирования документа.
-- **mm_moveFieldsToTab** - позволяет переместить поля документа и TV в другую вкладку.
-- **mm_hideTabs** - позволяет скрыть одну из стандартных вкладок на странице редактирования документа.
-- **mm_renameTab** - позволяет переименовать одну из стандартных вкладок на странице редактирования документа.
+##### Working with Tabs
+- ** mm_createTab ** - allows you to create a new custom tab on the document editing page.
+- ** mm_moveFieldsToTab ** - allows you to move the document and TV fields to another tab.
+- ** mm_hideTabs ** - allows you to hide one of the standard tabs on the document editing page.
+- ** mm_renameTab ** - allows you to rename one of the standard tabs on the document editing page.
 
 
-#####Карты
-- **mm_ddGMap** - позволяет интегрировать карту Google Maps для получения координат.
-- **mm_ddYMap** - позволяет интегрировать карту Yandex Maps для получения координат.
+#####Cards
+- ** mm_ddGMap ** - allows you to integrate the Google Maps map to get coordinates.
+- ** mm_ddYMap ** - allows you to integrate the Yandex Maps map to get coordinates.
 
 
-#####Прочее
-- **mm_widget_showimagetvs** - позволяет показать превьюшки изображений, выбранных в TV на странице редактирования документа.
-- **mm_ddResizeImage** - позволяет изменять размеры изображений (TV), например: делать маленькие превьюшки (thumbs).
-- **mm_ddAutoFolders** - позволяющий при сохранении документа автоматически перемещать его, основываясь на его дате (дате публикации, или любой дате в tv) в папку года и месяца.
-- **mm_ddFillMenuindex** - выставляющий минимальное свободное значение позиции меню (menuindex) для новых документов.
-- **mm_widget_accessdenied** - позволяющий запретить доступ к определённым документам по их ID (доступ к дочерним документам не запрещается).
-- **mm_ddHTMLCleaner** - Очищает лишние атрибуты и стили в HTML для необходимых полей документа (и TV).
-- **mm_hideempty** - Позволяет скрыть пустые секции и вкладки
+##### Other
+- ** mm_widget_showimagetvs ** - allows you to display thumbnails of images selected in TV on the document editing page.
+- ** mm_ddResizeImage ** - allows you to resize images (TV), for example: make small thumbs (thumbs).
+- ** mm_ddAutoFolders ** - allowing you to automatically move the document when saving a document based on its date (publication date, or any date in tv) to the year and month folder.
+- ** mm_ddFillMenuindex ** - setting the minimum free value of the menu item (menuindex) for new documents.
+- ** mm_widget_accessdenied ** - allows you to deny access to certain documents by their ID (access to child documents is not prohibited).
+- ** mm_ddHTMLCleaner ** - Clears unnecessary attributes and styles in HTML for the required document fields (and TV).
+- ** mm_hideempty ** - Allows you to hide empty sections and tabs
 
-####Смотрите также
-Модуль для удобного редактирования правил: **ddMMEditor**.
+####See also
+Module for easy rule editing: ** ddMMEditor **.

@@ -1,8 +1,8 @@
 Examples of configuration can be found <a href="https://github.com/mnoskov/pagebuilder/tree/master/assets/plugins/pagebuilder/config" target="_blank">here</a>. (For example blocks to become available for selection, you need to rename files `*.php.sample` to `*.php`)
 
-### Пример 1
+### Example 1
 
-В этом примере создается контентный блок с однострочным и многострочным текстовыми полями, который будет выводиться в шаблонах с идентификатором "2" под именем "Example 1":
+In this example, a content block with a single-line and multi-line text fields is created, which will be displayed in templates with identifier "2" under the name "Example 1":
 
 ```
 <?php
@@ -30,13 +30,12 @@ Examples of configuration can be found <a href="https://github.com/mnoskov/pageb
     ];
 ```
 
-### Пример 2
+### Example 2
 
-В следующем примере контентный блок будет содержать однострочное поле для заголовка, дату и список изображений. 
-Основной шаблон вывода будет загружен из чанка с именем "example2".
+In the following example, the content block will contain a single-line header field, a date and a list of images.
+The main output template will be loaded from the chunk named "example2".
 
-Блок будет выводиться только в документах с идентификаторами "37" и "41" под именем "Example 2":
-
+The block will be displayed only in documents with identifiers "37" and "41" under the name "Example 2":
 ```
 <?php
     return [

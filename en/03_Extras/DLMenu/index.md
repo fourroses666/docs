@@ -129,7 +129,7 @@ Possible values - name of a template given according to the DocLister template s
 
 Default - parentRowTpl value.
 
-## Классы
+## Classes
 Document classes:
 * __rowClass__ - document class, provided by innerClass parameter;
 * __firstClass__ - first document class, provided by firstClass parameter (default - first);

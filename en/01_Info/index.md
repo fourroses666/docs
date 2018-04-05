@@ -1,3 +1,3 @@
-В этом разделе содержится общая информация о Evolution CMS. В основном она будет полезна тем, кто только начинает свое знакомство с этой CMS. Хотя и для специалистов здесь найдется много интересного.
+This section contains general information about the Evolution CMS. Basically, it will be useful to those who are just beginning with this CMS. Although for professionals there is also a lot of interesting.
 
-Если вы хотите разобраться в том, что вам может предложить EVO, то рекомендуем вам читать все в том порядке, который существует. Если возникли какие-то вопросы или материал показался вам недостаточно раскрытым, то лучше всего обратиться в сообщество. На основе ваших вопросов мы постоянно улучшаем наши материалы, а значит их качество зависит от вас.
+If you want to understand what EVO has to offer, we recommend that you read everything in the order that exists. If you have any questions or the material seemed insufficiently disclosed to you, then it's best to contact the community. Based on your questions, we constantly improve our materials, which means their quality depends on you.

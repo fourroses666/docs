@@ -1,1 +1,1 @@
-Здесь пока нет нужной информации
+There is no information yet.
